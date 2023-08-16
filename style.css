@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(195, 151, 158);
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(200, 170, 186);
+    height: 100vh;
+    align-items: center;
+}
+#subcont{
+    background-color:rgb(153, 153, 228);
+    padding: 20px;
+    width: 600px;
+    min-height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 40px 40px black;
+}
+.textlist{
+    position: relative;
+    margin: 20px;
+    padding: 5px;
+}
+.textlist .edit{
+    position: absolute;
+    right: 30px;
+}
+.textlist .cross{
+    position: absolute;
+    right: 5px;
+    /* cursor: pointer; */
+
+}
+.up{
+    left: 20px;
+    padding-left: 50px;
+}
+#textwork{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+#addbtn{
+    width: 45px;
+    height: 45px;
+    background-color: blue;
+    padding: 10px;
+    border: none;
+}
+.textlist{
+    background-color: rgb(200, 170, 186);
+    margin: 10px;
+    border-radius: 10px;
+}
